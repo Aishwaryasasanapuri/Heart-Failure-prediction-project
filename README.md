@@ -55,11 +55,11 @@ We download the heart failure dataset from kaggle as a csv file and upload the s
 
 Below is the screenshot after the dataset is registered
 
-![](https://github.com/Aishwaryasasanapuri/Azure-ML-Capstone-project/blob/main/Screenshots/Dataset.JPG)
+![](https://github.com/Aishwaryasasanapuri/Udacity---AzureML-Capstone-project/blob/main/Screenshots/Dataset.JPG)
 
 Before we proceed with the project , firstly we will create a compute instance to run our jupyter files. 
 
-![](https://github.com/Aishwaryasasanapuri/Azure-ML-Capstone-project/blob/main/Screenshots/Capture.JPG)
+![](https://github.com/Aishwaryasasanapuri/Udacity---AzureML-Capstone-project/blob/main/Screenshots/Capture.JPG)
 
 ## Automated ML
  Give an overview of the `automl` settings and configuration you used for this experiment
@@ -75,10 +75,13 @@ Screenshots of the `RunDetails` widget as well as a screenshot of the best model
 
 Here is the Automl run details
 
-![](https://github.com/Aishwaryasasanapuri/Azure-ML-Capstone-project/blob/main/Screenshots/Automl_runs.JPG)
+![](https://github.com/Aishwaryasasanapuri/Udacity---AzureML-Capstone-project/blob/main/Screenshots/Automl_runs.JPG)
 
+Best Auto Ml model
 
-![](https://github.com/Aishwaryasasanapuri/Azure-ML-Capstone-project/blob/main/Screenshots/voting%20ensembler.JPG)
+![](https://github.com/Aishwaryasasanapuri/Udacity---AzureML-Capstone-project/blob/main/Screenshots/Aml_bestmodel.JPG)
+
+![](https://github.com/Aishwaryasasanapuri/Udacity---AzureML-Capstone-project/blob/main/Screenshots/voting%20ensembler.JPG)
 
 
 ## Hyperparameter Tuning
@@ -91,18 +94,18 @@ What are the results you got with your model? What were the parameters of the mo
 
 Screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
-![](https://github.com/Aishwaryasasanapuri/Azure-ML-Capstone-project/blob/main/Screenshots/hyperparameter_run.JPG)
+![](https://github.com/Aishwaryasasanapuri/Udacity---AzureML-Capstone-project/blob/main/Screenshots/hyperparameter_run.JPG)
 
 ## Model Deployment
  Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
  
-![](https://github.com/Aishwaryasasanapuri/Azure-ML-Capstone-project/blob/main/Screenshots/hd_endpoint.JPG)
+![](https://github.com/Aishwaryasasanapuri/Udacity---AzureML-Capstone-project/blob/main/Screenshots/Screenshots/hd_endpoint.JPG)
  
-![](https://github.com/Aishwaryasasanapuri/Azure-ML-Capstone-project/blob/main/Screenshots/hd_endpoint2.JPG)
+![](https://github.com/Aishwaryasasanapuri/Udacity---AzureML-Capstone-project/blob/main/Screenshots/hd_endpoint2.JPG)
 
 ## Deleting Compute
 
-![](https://github.com/Aishwaryasasanapuri/Azure-ML-Capstone-project/blob/main/Screenshots/deleting_compute.JPG)
+![](https://github.com/Aishwaryasasanapuri/Udacity---AzureML-Capstone-project/blob/main/Screenshots/deleting_compute.JPG)
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. [Link](https://youtu.be/YTVtDq_TgsQ)
