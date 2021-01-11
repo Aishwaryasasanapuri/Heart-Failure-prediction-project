@@ -11,7 +11,7 @@ from azureml.core.run import Run
 from azureml.data.dataset_factory import TabularDatasetFactory
 from azureml.core import Dataset
 
-ds= TabularDatasetFactory.from_delimited_files(path="https://raw.githubusercontent.com/Aishwaryasasanapuri/Azure-ML-Capstone-project/main/heart_failure_clinical_records_dataset.csv")
+ds= TabularDatasetFactory.from_delimited_files(path="https://raw.githubusercontent.com/Aishwaryasasanapuri/Udacity---AzureML-Capstone-project/main/heart_failure_clinical_records_dataset.csv")
 def clean_data(data):
    
     x_df = data.to_pandas_dataframe().dropna()
