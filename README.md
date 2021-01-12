@@ -81,8 +81,6 @@ Best Auto Ml model
 
 ![](https://github.com/Aishwaryasasanapuri/Udacity---AzureML-Capstone-project/blob/main/Screenshots/Aml_bestmodel.JPG)
 
-![](https://github.com/Aishwaryasasanapuri/Udacity---AzureML-Capstone-project/blob/main/Screenshots/voting%20ensembler.JPG)
-
 
 ## Hyperparameter Tuning
  What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
@@ -115,7 +113,7 @@ Screenshots of the `RunDetails` widget as well as a screenshot of the best model
 - Demo of a sample request sent to the endpoint and its response
 
 ## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+*(Optional):* This is where you can provide information about any standout suggestions that you have attempted.
 
 - We have enabled Application insights
 
