@@ -55,7 +55,7 @@ We download the heart failure dataset from kaggle as a csv file and upload the s
 
 Below is the screenshot after the dataset is registered
 
-![](https://github.com/Aishwaryasasanapuri/Udacity---AzureML-Capstone-project/blob/main/Screenshots/Dataset.JPG)
+![](https://github.com/Aishwaryasasanapuri/Heart-Failure-prediction-project/blob/main/Screenshots/Dataset.JPG)
 
 Before we proceed with the project , firstly we will create a compute instance to run our jupyter files. 
 
@@ -65,6 +65,10 @@ Before we proceed with the project , firstly we will create a compute instance t
  Give an overview of the `automl` settings and configuration you used for this experiment
 
 Automl is also known as Automated ML which helps in rapidly performing multiple iteration on different algorithms. It also supports Ensemble methods. Here we get voting ensemble as our best run.
+
+Automl Configuaration
+
+![](https://github.com/Aishwaryasasanapuri/Heart-Failure-prediction-project/blob/main/Screenshots/Automl_config.JPG)
 
 ### Results
  What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
@@ -81,11 +85,19 @@ Best Auto Ml model
 
 ![](https://github.com/Aishwaryasasanapuri/Udacity---AzureML-Capstone-project/blob/main/Screenshots/Aml_bestmodel.JPG)
 
+![](https://github.com/Aishwaryasasanapuri/Heart-Failure-prediction-project/blob/main/Screenshots/voting%20ensembler.JPG)
+
+Best run id
+
+![](https://github.com/Aishwaryasasanapuri/Heart-Failure-prediction-project/blob/main/Screenshots/Aml_bestrunid.JPG)
+
 
 ## Hyperparameter Tuning
  What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
 
 We choose a hyperdrive model with Randomparameter sampling , Early termination policy we used is Banditpolicy with a sloack facotr of 0.1 and we have used Accuracy as our primary metric.
+
+![](https://github.com/Aishwaryasasanapuri/Heart-Failure-prediction-project/blob/main/Screenshots/hd_config.JPG)
 
 ### Results
 What are the results you got with your model? What were the parameters of the model? How could you have improved it?
@@ -94,6 +106,16 @@ Screenshots of the `RunDetails` widget as well as a screenshot of the best model
 
 ![](https://github.com/Aishwaryasasanapuri/Udacity---AzureML-Capstone-project/blob/main/Screenshots/hyperparameter_run.JPG)
 
+![](https://github.com/Aishwaryasasanapuri/Heart-Failure-prediction-project/blob/main/Screenshots/hyperdrive_run_page.JPG)
+
+Best hyperdrive model
+
+![](https://github.com/Aishwaryasasanapuri/Heart-Failure-prediction-project/blob/main/Screenshots/hd_bestmodel.JPG)
+
+Logs files of the services
+
+![](https://github.com/Aishwaryasasanapuri/Heart-Failure-prediction-project/blob/main/Screenshots/enablelogs.JPG)
+
 ## Model Deployment
  Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
  
@@ -101,12 +123,21 @@ Screenshots of the `RunDetails` widget as well as a screenshot of the best model
  
 ![](https://github.com/Aishwaryasasanapuri/Udacity---AzureML-Capstone-project/blob/main/Screenshots/hd_endpoint2.JPG)
 
+Application insights of Hyperdrive service
+
+![](https://github.com/Aishwaryasasanapuri/Heart-Failure-prediction-project/blob/main/Screenshots/hd_appinsights.JPG)
+
+Application insights of Automl service 
+![](https://github.com/Aishwaryasasanapuri/Heart-Failure-prediction-project/blob/main/Screenshots/automl_appinsights.JPG)
+
 ## Deleting Compute
+
+Since we completed all the related works , we will be deleting the Endpoint services and Compute clusters and instances
 
 ![](https://github.com/Aishwaryasasanapuri/Udacity---AzureML-Capstone-project/blob/main/Screenshots/deleting_compute.JPG)
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. [Link](https://youtu.be/YTVtDq_TgsQ)
+*TODO* Provide a link to a screen recording of the project in action. [Link](https://youtu.be/vzmJMp8j4Xo)
 
 - A working model
 - Demo of the deployed  model
@@ -117,9 +148,12 @@ Screenshots of the `RunDetails` widget as well as a screenshot of the best model
 
 - We have enabled Application insights
 
+
+
 ## Future Improvements
 
 - More data would help in getting more insights from the Automl and hyperdrive methods
 - Feature engineering can be performed
 - Different feature reduction techniques could be used like PCA, RFE 
 - Using Cross validation techniques would help in cribbing problems like overfitting
+- Th model can be converted to ONXX format and be deployed on Edge services.
